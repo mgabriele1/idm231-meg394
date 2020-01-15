@@ -1,0 +1,141 @@
+# Variables
+- values are stored in variables when writing code
+- have to write insturctions for how code will use variables
+---
+## Declaring a Variable
+- examples
+    -  const one = 1;
+    - let two = 2;
+    - two = 'two';
+    - var three = 'III"
+- can decalre multiple values in one line
+    - var a = 1, b = 2;
+- <b>Three Different Ways to Decalre</b>
+    - const means variable won't change at all
+    - let command for same variable inside function vs outside is 2 different variables
+    - var
+- global vs local
+    - inside function: local
+    - outside function: global
+---
+## Types of Variables
+- numbers
+    - integers, floats (deimals or exponents)
+- strings
+    - ' or " around 
+    - 'a'+'string' displays side by side
+    - {variable} can inserted inside string
+ - booleans
+    - true or false
+    - 0 or 1
+- null
+    - variable declared but no value
+- undefined
+    - variable hasn't been declared
+    - typeof variable === undefined
+        - check if defined yet
+---
+## Object Types
+- function hello() {}
+- const myObject = {};
+- const myArray = [];
+---
+## Expressions
+- units of code that can be evaluated and resolved to a value
+- arithmetic expressions
+    - i++ (increment)
+    - i-- (decrement)
+    - order of operations
+        - same as math
+        - use parenthesis to be sure
+- string expressions
+- primary expressions
+- array & object initializers expressions
+    - [] // array literal
+        - anything in []
+    - {} // object literal
+        - anything in {}
+---
+## Logical Operations
+- a && b (and)
+- a || b (or)
+- !a (not)
+---
+## Variable Names
+- must begin with:
+    - letter
+    - number
+    - underscore
+- cannot contain dashes (-) or periods (.)
+- cannot use <b> keywords </b> or <b> reserved words </b>
+- CASE SENSITIVE
+- describe the info they represent
+- camelCase or underscores (_) for multiple words
+---
+## Arrays
+- init an array of 6 items with value 1
+    - const a = [];
+    - const a = [1,2,3];
+    - const Array.of(1,2,4);
+    - const Array(6).fill(1)
+- legnth (# of variables)
+    - const myArrayLegnth = a.legnth;
+- arrays start with 0 
+    - 0 1 2 has:
+        - legnth of 3
+        - index value of 2
+- adding value
+    - const colors = ['white', 'black', 'custom'];
+       //               0        1         2
+    - console.log(colors[0]); // white
+    - console.log(colors[1]); // black
+    - console.log(colors[2]); // custom
+- changing value
+    - const colors = ['white', 'black', 'custom'];
+    - colors[3] = 'beige';
+    - console.log(colors[3]); // sets third value as beige
+- adding to an array
+    - add at the end: myArray.push(4);
+    - add at the beginning: myArray.unshift(0);
+    - Using ES6
+        - let arrayOne = ['1','2','3'];
+        - let arrayTwo = [...arrayOne, '4']
+- remove from an array
+    - from the end: myArray.pop();
+    - from the beginning: a.shift();
+    - at a random position
+        - myArray.splice(0, 2);
+            - starting positiion (0)
+            - items to remove (2)
+        - myArray.splice(3,2); // get the 2 items starting from index 3
+- combine arrays
+    - const a = [1,2];
+    - const b = [3,4];
+    - a.concat(b); // 1,2,3,4
+    - onst c = [...a, ...b]; // 1,2,3,4
+- lookup, sort, copy
+    - <a href="https://github.com/philsinatra/IDM231/blob/master/instructor_materials/02-variables.md">Middle/Bottom of Page</a>
+---
+## display in console
+- console.log('hello world');
+- console.log(myVariable);
+- console.log('myVariable: ' + myVariable);
+---
+---
+# Class Example
+- executes formula and puts it to left of equals sign
+- console.log ()
+    - everything in parenthesis is displayed
+    - puts output in console log
+        - inspect, console
+        - tells document and line number
+- example: console.log('The answer is: ' + total);
+    - adds total to end of string
+- html tag < title> might get confused with variable title, but title is a valid variable
+- grouping: anything between console.group and console.groupEnd will be in the group
+    - console.group('Page Details');
+    - console.log(title);
+    - console.log(message);
+    - console.groupEnd();
+- <b> ONCE A VARIABLE IS DECLARED IT DOES NOT NEED TO BE DECALRED AGAIN IT CAN JUST BE CALLED </b>
+- when a variable is put in quotes it does not give you the value of the variable
