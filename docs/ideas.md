@@ -10,3 +10,9 @@
     - maybe connects to some song recommendations or spotify playlists
     - art during transition to music for music taste
     - scroll through of some album covers
+---
+## Music Plan
+- HOME: record player with records underneath for each genre, sticky notes with signs
+- TRANSITION: when sign clicked or record picked switches to new page which starts with animation of needle being put on record
+- SOUND: music for genre begins to play, record spins, image spins out of record to cover background (color for sign and genre)
+- FINAL: gives info about why genre goes with sign, link to Spotify playlist (to open in new tab)
