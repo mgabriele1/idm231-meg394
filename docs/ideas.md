@@ -16,3 +16,11 @@
 - TRANSITION: when sign clicked or record picked switches to new page which starts with animation of needle being put on record
 - SOUND: music for genre begins to play, record spins, image spins out of record to cover background (color for sign and genre)
 - FINAL: gives info about why genre goes with sign, link to Spotify playlist (to open in new tab)
+---
+## To Do
+- 1200 by 800 wireframe
+    - all images etc will show up on ONE page
+- 12 buttons (hover state?)
+- 12 images & short descriptions
+- 12 sound effects
+- date input: month, day, year (extra credit)
