@@ -38,9 +38,9 @@
     - once you have one of these two you can navigate DOM tree
 ---
 ## Multiple Nodes
-- getElementByClassName ()
+- getElementsByClassName ()
     - returns all interations
-- getElementByTagName()
+- getElementsByTagName()
     - predefined HTML tag names
 - querySelectorAll ()
     - anything that matches name in entire HTML
