@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: aquamarine;
+    color: white;
+    font-family: sans-serif;
+    font-size: 3em;
+}
+
+/* lets stylize ladies */
+
+header, footer {
+    text-align: center;
+}
+
+#wrapper {
+    width: 56.25em;
+    height: 31.25em;
+    background-color: cadetblue;
+    margin: 1em auto;
+}
+
+button {
+    margin: .5em;
+    padding: 1rem;
+    font-size: 1rem;
+    color: darkblue;
+    font-weight: 800;
+    background-color: pink;
+    border-color: darkred;
+}
+
+#col_left {
+    background-color: paleturquoise;
+    width: 12.5em;
+    float: left;
+}
+
+#col_right {
+    background-color: lavender;
+    width: 43.75em;
+    float: left;
+}
