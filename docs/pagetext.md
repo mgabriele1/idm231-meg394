@@ -16,7 +16,7 @@
 # Taurus
 - April 20 - May 20
 - Music: the classics
-- As a Tarus, you are an earth sign, filled with comfort. You are most at home when listening to the classics, reminiscing on the history of music. The classics remind you of a better time, a time when musicians were really about the music. 
+- As a Tarus, you are an earth sign ruled by venus, the planet of beauty, music, and art. You are relaxed and find comfort in listening to songs that remind you of good times. You are most at home when listening to the classics, reminiscing on the history of music. The classics remind you of a better time, a time when musicians were really about the music. 
 ---
 # Gemini
 - May 21 - June 20

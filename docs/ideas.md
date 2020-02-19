@@ -24,3 +24,4 @@
 - 12 images & short descriptions
 - 12 sound effects
 - date input: month, day, year (extra credit)
+- HELP PAGE
