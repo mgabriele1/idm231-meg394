@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Astrology</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="font/fontstyle.css">
+</head>
+<body>
+  <div class= "grid-container">
+    <div class="header">
+        <img src="../graphics/title.png" alt="musical astrology">
+        <form acton="">
+          <label for="zods">Your Birthday:</label>
+          <input type ="date" id="zodDate" name="zodDate">
+        </form>
+        <button id="compute" onclick="computeZod()">Get my Music Genre</button>
+        <p>Help</p>
+    </div>        
+    <div class="buttons">
+      <img src="../graphics/buttons/aquarius-alternative.png" alt="alternative" id="alternative">
+      <img src="../graphics/buttons/aries-rock.png" alt="rock" id="rock">
+      <img src="../graphics/buttons/cancer-blues.png" alt="blues" id="blues">
+      <img src="../graphics/buttons/capricorn-jazz.png" alt="jazz" id="jazz">
+      <img src="../graphics/buttons/gemini-dance.png" alt="dance music" id="dance">
+      <img src="../graphics/buttons/leo-pop.png" alt="pop" id="pop">
+      <img src="../graphics/buttons/libra-country.png" alt="country" id="country">
+      <img src="../graphics/buttons/pisces-indie.png" alt="indie" id="indie">
+      <img src="../graphics/buttons/sagittarius-world.png" alt="world music" id="world"> 
+      <img src="../graphics/buttons/scorpio-rap.png" alt="rap" id="rap">
+      <img src="../graphics/buttons/taurus-theclassics.png" alt="the classics" id="theclassics">
+      <img src="../graphics/buttons/virgo-classical.png" alt="classical" id="classical">
+    </div>
+    <div class = "main">
+      <img src="../graphics/maindefault.png" alt="shelf" id="main">
+    </div>
+    <div class = "footer">
+      <p>Music from Spotify</p>
+    </div> 
+<!--MODAL-->
+    <div id="modal" class="modal" hidden>
+      <div class="modal-body">
+          <img src="http://placehold.it/250x100" alt="" class="modal-title" id="modtitle">
+          <img src="http://placehold.it/250x250" alt="" class="modal-img" id="modimg">
+          <p class="modal-text" id="modtext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam possimus quasi voluptas ullam accusantium libero error labore recusandae ducimus laboriosam a, dolorem consequatur magni, repellendus ex, ratione nobis repudiandae sint.
+          </p>
+          <button id="btn-modal-close" class="toggle-modal">Close</button>
+      </div>
+    </div>       
+  </div> 
+<!--SCRIPT-->
+<script src="scrpit.js"></script>     
+</body>
+</html>
