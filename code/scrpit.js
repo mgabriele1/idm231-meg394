@@ -1,3 +1,4 @@
+/* CODE NEEDS ; */
 /*HOVER IMAGE REPLACE*/
 function mainMain () {
     let main = document.getElementById("main");
@@ -152,6 +153,3 @@ function altModal () {
     modImg.src="../graphics/imgalt.png";
     modText.innerHTML="As an aquarius, you are an air sign, independent, and free spirited. You are innovative, imaginative, and a little rebellious. Alternative music is a great fit for you because it doesn't follow anyone else's rules. Alternative music is filled with persoanlity and originality, making it one of a kind, like you. The artists of this genre have a rebellious side to their music, embracing and showing off their unique style.";
 }
-
-
-
