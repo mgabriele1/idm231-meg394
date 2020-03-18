@@ -16,7 +16,7 @@
           <input type ="date" id="zodDate" name="zodDate">
         </form>
         <button id="compute" onclick="computeZod()">Get my Music Genre</button>
-        <p>Help</p>
+        <p id="help">Help</p>
     </div>        
     <div class="buttons">
       <img src="../graphics/buttons/aquarius-alternative.png" alt="alternative" id="alternative">
@@ -55,8 +55,21 @@
           </p>
           <button id="btn-modal-close" class="toggle-modal">Close</button>
       </div>
-    </div>       
-  </div> 
+    </div>
+<!--HELP MODAL-->
+<div id="helpmodal" class="helpmodal" hidden>
+  <div class="help-body">
+      <p class="left-text" id="lefttext">
+        Use any of the buttons on the left to display the dates and description for each musical astrology genre.
+      </p>
+      <p class="right-text" id="righttext">
+        Input your birthday into the 'Your Birthday' box at the top then click 'Get my music genre' and the information on your musical astrology genre will be displayed.
+      </p>
+      <button id="btn-help-close" class="toggle-help">Close</button>
+  </div>
+</div>        
+</div>      
+</div> 
 <!--SCRIPT-->
 <script src="scripttest.js"></script>     
 </body>

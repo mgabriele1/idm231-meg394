@@ -231,7 +231,6 @@ function altModal (whichTitle, whichImg, whichDate, whichText, whichSound) {
 /* DATE PICKER */
 /* zod variables */
 let zodDateObj = document.getElementById('zodDate');
-let showMeObj = document.getElementById('showMe');
 
 /* date picker function */
 function computeZod() {
@@ -243,7 +242,7 @@ function computeZod() {
     //convert string to number
     let monNum = parseInt(monStr);
     let dayNum = parseInt(dayStr);
-    showMeObj.innerHTML = dateToZodiac(monNum, dayNum);
+    dateToZodiac(monNum, dayNum);
 }
 
 /* date sort function */
@@ -272,5 +271,47 @@ function dateToZodiac(whichMonth, whichDayOfMonth) {
   altModal(indTitle, indImg, indDate, indText, indSound);
     } else if ((whichMonth == 1 && whichDayOfMonth >= 20) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
   altModal(altTitle, altImg, altDate, altText, altSound);
+    } else if (isNaN(whichMonth)) {
+  invalidFctn ();     
+    } else if (isNaN(whichDayOfMonth)) {
+  invalidFctn (); 
+    }
+}
+
+/* ----------------------------------------------------- */
+
+/* HELP BUTTON */
+let helpModal = document.getElementById('helpmodal');
+const btnHelp = document.querySelectorAll('.toggle-help');
+btnHelp.forEach(button => {
+  button.addEventListener(
+    'click',
+    () => {
+        helpModal.hidden = !helpModal.hidden;
+        if (helpBtn.className !== "helpclicked") {
+            helpBtn.classList.add("helpclicked");
+        } else {
+            helpBtn.classList.remove("helpclicked")
+        }
+    },
+    false
+  );
+});
+
+let helpBtn = document.getElementById('help');
+
+helpBtn.addEventListener("click", menuHelp, false);
+
+function menuHelp () {
+    helpModal.hidden = !helpModal.hidden;
+    if (helpBtn.className !== "helpclicked") {
+        helpBtn.classList.add("helpclicked");
+    } else {
+        helpBtn.classList.remove("helpclicked")
     } 
 }
+
+/* INVALID DATE FUNCTION */
+function invalidFctn () {
+    
+}; 
