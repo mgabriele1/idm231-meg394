@@ -2,7 +2,7 @@
 /*HOVER IMAGE REPLACE*/
 function mainMain () {
     let main = document.getElementById("main");
-    main.src="../graphics/maindefault.png"
+    main.src="graphics/maindefault.png"
 }
 /* alternative music */
 let altButton = document.getElementById ("alternative");
@@ -10,7 +10,7 @@ let altButton = document.getElementById ("alternative");
 altButton.addEventListener("mouseover", mainAlt)
     function mainAlt () {
         let main = document.getElementById("main");
-        main.src="../graphics/mainalt.png"
+        main.src="graphics/mainalt.png"
     }
 altButton.addEventListener("mouseout", mainMain)
 
@@ -20,7 +20,7 @@ let rockButton = document.getElementById ("rock");
 rockButton.addEventListener("mouseover", mainRock)
     function mainRock () {
         let main = document.getElementById("main");
-        main.src="../graphics/mainrock.png"
+        main.src="graphics/mainrock.png"
     }
 rockButton.addEventListener("mouseout", mainMain)
 
@@ -31,7 +31,7 @@ let bluesButton = document.getElementById ("blues");
 bluesButton.addEventListener("mouseover", mainBlues)
     function mainBlues () {
         let main = document.getElementById("main");
-        main.src="../graphics/mainblues.png"
+        main.src="graphics/mainblues.png"
     }
 bluesButton.addEventListener("mouseout", mainMain)
 
@@ -42,7 +42,7 @@ let jazzButton = document.getElementById ("jazz");
 jazzButton.addEventListener("mouseover", mainJazz)
     function mainJazz () {
         let main = document.getElementById("main");
-        main.src="../graphics/mainjazz.png"
+        main.src="graphics/mainjazz.png"
     }
 jazzButton.addEventListener("mouseout", mainMain)
 
@@ -52,7 +52,7 @@ let dancButton = document.getElementById ("dance");
 dancButton.addEventListener("mouseover", mainDanc)
     function mainDanc () {
         let main = document.getElementById("main");
-        main.src="../graphics/maindance.png"
+        main.src="graphics/maindance.png"
     }
 dancButton.addEventListener("mouseout", mainMain)
 
@@ -62,7 +62,7 @@ let popButton = document.getElementById ("pop");
 popButton.addEventListener("mouseover", mainPop)
     function mainPop () {
         let main = document.getElementById("main");
-        main.src="../graphics/mainpop.png"
+        main.src="graphics/mainpop.png"
     }
 popButton.addEventListener("mouseout", mainMain)
 
@@ -72,7 +72,7 @@ let cntryButton = document.getElementById ("country");
 cntryButton.addEventListener("mouseover", mainCntry)
     function mainCntry () {
         let main = document.getElementById("main");
-        main.src="../graphics/maincountry.png"
+        main.src="graphics/maincountry.png"
     }
 cntryButton.addEventListener("mouseout", mainMain)
 
@@ -82,7 +82,7 @@ let indButton = document.getElementById ("indie");
 indButton.addEventListener("mouseover", mainInd)
     function mainInd () {
         let main = document.getElementById("main");
-        main.src="../graphics/mainindie.png"
+        main.src="graphics/mainindie.png"
     }
 indButton.addEventListener("mouseout", mainMain)
 
@@ -92,7 +92,7 @@ let wrldButton = document.getElementById ("world");
 wrldButton.addEventListener("mouseover", mainWrld)
     function mainWrld () {
         let main = document.getElementById("main");
-        main.src="../graphics/mainworld.png"
+        main.src="graphics/mainworld.png"
     }
 wrldButton.addEventListener("mouseout", mainMain)
 
@@ -102,7 +102,7 @@ let rapButton = document.getElementById ("rap");
 rapButton.addEventListener("mouseover", mainRap)
     function mainRap () {
         let main = document.getElementById("main");
-        main.src="../graphics/mainrap.png"
+        main.src="graphics/mainrap.png"
     }
 rapButton.addEventListener("mouseout", mainMain)
 
@@ -112,7 +112,7 @@ let tcButton = document.getElementById ("theclassics");
 tcButton.addEventListener("mouseover", mainTc)
     function mainTc () {
         let main = document.getElementById("main");
-        main.src="../graphics/maintheclassics.png"
+        main.src="graphics/maintheclassics.png"
     }
 tcButton.addEventListener("mouseout", mainMain)
 
@@ -122,7 +122,7 @@ let clsclButton = document.getElementById ("classical");
 clsclButton.addEventListener("mouseover", mainClscl)
     function mainClscl () {
         let main = document.getElementById("main");
-        main.src="../graphics/mainclassical.png"
+        main.src="graphics/mainclassical.png"
     }
 clsclButton.addEventListener("mouseout", mainMain)
 
@@ -149,7 +149,7 @@ let modText = document.getElementById("modtext");
 altButton.addEventListener("click", altModal)
 function altModal () {
     modal.hidden = !modal.hidden;
-    modTitle.src="../graphics/titlealt.png";
-    modImg.src="../graphics/imgalt.png";
+    modTitle.src="graphics/titlealt.png";
+    modImg.src="graphics/imgalt.png";
     modText.innerHTML="As an aquarius, you are an air sign, independent, and free spirited. You are innovative, imaginative, and a little rebellious. Alternative music is a great fit for you because it doesn't follow anyone else's rules. Alternative music is filled with persoanlity and originality, making it one of a kind, like you. The artists of this genre have a rebellious side to their music, embracing and showing off their unique style.";
 }

@@ -18,40 +18,40 @@ let main = document.getElementById("main");
 
 /* hover event listeners */
 altButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/mainalt.png");
+    mainSwitch("graphics/mainalt.png");
 }, false);
 rockButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/mainrock.png");
+    mainSwitch("graphics/mainrock.png");
 }, false);
 bluesButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/mainblues.png");
+    mainSwitch("graphics/mainblues.png");
 }, false);
 jazzButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/mainjazz.png");
+    mainSwitch("graphics/mainjazz.png");
 }, false);
 dancButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/maindance.png");
+    mainSwitch("graphics/maindance.png");
 }, false);
 popButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/mainpop.png");
+    mainSwitch("graphics/mainpop.png");
 }, false);
 cntryButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/maincountry.png");
+    mainSwitch("graphics/maincountry.png");
 }, false);
 indButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/mainindie.png");
+    mainSwitch("graphics/mainindie.png");
 }, false);
 wrldButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/mainworld.png");
+    mainSwitch("graphics/mainworld.png");
 }, false);
 rapButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/mainrap.png");
+    mainSwitch("graphics/mainrap.png");
 }, false);
 tcButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/maintheclassics.png");
+    mainSwitch("graphics/maintheclassics.png");
 }, false);
 clsclButton.addEventListener("mouseover", function () {
-    mainSwitch("../graphics/mainclassical.png");
+    mainSwitch("graphics/mainclassical.png");
 }, false);
 
 /* hover switch function*/
@@ -76,7 +76,7 @@ clsclButton.addEventListener("mouseout", mainMain);
 /* back to main function */
 function mainMain () {
     let main = document.getElementById("main");
-    main.src="../graphics/maindefault.png";
+    main.src="graphics/maindefault.png";
 }
 
 /* ----------------------------------------------------- */
@@ -105,77 +105,77 @@ let modSound = document.getElementById("soundplayer")
 
 /* define fill-in elements */
 /* alternative */
-let altTitle = "../graphics/titlealt.png";
-let altImg = "../graphics/imgalt.png";
+let altTitle = "graphics/titlealt.png";
+let altImg = "graphics/imgalt.png";
 let altDate = "January 20 - February 18";
 let altText = "As an aquarius, you are an air sign, independent, and free spirited. You are innovative, imaginative, and a little rebellious. Alternative music is a great fit for you because it doesn't follow anyone else's rules. Alternative music is filled with persoanlity and originality, making it one of a kind, like you. The artists of this genre have a rebellious side to their music, embracing and showing off their unique style.";
-let altSound = "../sounds/alternative.mp3";
+let altSound = "sounds/alternative.mp3";
 /* rock */
-let rockTitle = "../graphics/titlerock.png";
-let rockImg = "../graphics/imgrock.png";
+let rockTitle = "graphics/titlerock.png";
+let rockImg = "graphics/imgrock.png";
 let rockDate = "March 21 - April 19";
 let rockText = "As an Aries, you are a fire sign, filled with adrenaline, constantly on the move. You are passionate and true to yourself. You are energetic, dynamic, charismatic, honest, and a little bit crazy. Rock music is a great fit for you because it is upbeat music that will keep up with your pace. Rock music has a good beat behind it and meaningful lyrics.";
-let rockSound = "../sounds/rock.mp3";
+let rockSound = "sounds/rock.mp3";
 /* blues */
-let bluesTitle = "../graphics/titleblues.png";
-let bluesImg = "../graphics/imgblues.png";
+let bluesTitle = "graphics/titleblues.png";
+let bluesImg = "graphics/imgblues.png";
 let bluesDate = "June 21 - July 22";
 let bluesText = "As a Cancer, you are a water sign, ruled by feelings. You are loyal, emotional, immaginative, sentimental and compassionate. You think deeply and love to support/ care for others. Blues/ R&B is the best fit for you beause it can be dark, but it can also be loving and lively. Blues music is about getting swept up in the magic of the song. The beats and lyrics of this genre trigger emotions, touching the heart and soul of the listener.";
-let bluesSound = "../sounds/blues.mp3";
+let bluesSound = "sounds/blues.mp3";
 /* jazz */
-let jazzTitle = "../graphics/titlejazz.png";
-let jazzImg = "../graphics/imgjazz.png";
+let jazzTitle = "graphics/titlejazz.png";
+let jazzImg = "graphics/imgjazz.png";
 let jazzDate = "December 22 - January 19";
 let jazzText = "As a Capricorn, you are an earth sign, sophisticated and hard working. You are intelligent, making your own rules in life and working hard toward your goals. Jazz is the best fit for you because it is sophisticated music that takes work and dedication to craft. Just like you, this genre does not abide by any other rules. Jazz is more than just a music genre, it is like a representation of you.";
-let jazzSound = "../sounds/jazz.mp3";
+let jazzSound = "sounds/jazz.mp3";
 /* dance */
-let dancTitle = "../graphics/titledance.png";
-let dancImg = "../graphics/imgdance.png";
+let dancTitle = "graphics/titledance.png";
+let dancImg = "graphics/imgdance.png";
 let dancDate = "May 21 - June 20";
 let dancText = "As a Gemini, you are an air sign, gentle and affectonate. You are high energy and versitle, always moving, always on the go. You are free-spirited and highly expressive. You consider music an important learning experience and you love teaching people new things about music. Dance music is the best fit for you because it keeps you dancing/ on your feet. With all that energy pent up, you need a genre that you can really dance to.";
-let dancSound = "../sounds/edm.mp3";
+let dancSound = "sounds/edm.mp3";
 /* pop */
-let popTitle = "../graphics/titlepop.png";
-let popImg = "../graphics/imgpop.png";
+let popTitle = "graphics/titlepop.png";
+let popImg = "graphics/imgpop.png";
 let popDate = "Juy 23 - August 22";
 let popText = "As a Leo, you are a fire sign, the kings and ueens of the zodiac. You are a leader, someone popular, outgoing, and friendly. Popular music resonates with you, as it is also the center of attention. You love songs you can sing and dance to, and you've alwyas got the newest singles playing. You are invested in the whole musical experience, following the musicians rather than just the music.";
-let popSound = "../sounds/pop.mp3";
+let popSound = "sounds/pop.mp3";
 /* country */
-let cntryTitle = "../graphics/titlecountry.png";
-let cntryImg = "../graphics/imgcountry.png";
+let cntryTitle = "graphics/titlecountry.png";
+let cntryImg = "graphics/imgcountry.png";
 let cntryDate = "September 23 - October 22";
 let cntryText = "As a Libra, you are an air sign ruled by venus, making you the ultimate social sign. You are also loving and gracious. As a social creature, you relate best to mysic that gives you the opportunity to incorporate your favorite songs into whatever you do. Country music is the best fit for you because it is a catchy beat with meaningful lyrics. Country lyrics are about love and relating to others, two things that resonate with you.";
-let cntrySound = "../sounds/country.mp3";
+let cntrySound = "sounds/country.mp3";
 /* indie */
-let indTitle = "../graphics/titleindie.png";
-let indImg = "../graphics/imgindie.png";
+let indTitle = "graphics/titleindie.png";
+let indImg = "graphics/imgindie.png";
 let indDate = "February 19 - March 20";
 let indText = "As a Pisces, you are a water sign, having the deepest connection to music. You have many emotions and think deeply, leading you to be artistic, romantic, intuitive, and original. For you, music is an escape from reality, getting you in touch with your emotions. Indie music is a great fit for you because it is complex in beats and lyrics, feeding your need to get in touch with your emotions.";
-let indSound = "../sounds/indie.mp3";
+let indSound = "sounds/indie.mp3";
 /* world */
-let wrldTitle = "../graphics/titleworld.png";
-let wrldImg = "../graphics/imgworld.png";
+let wrldTitle = "graphics/titleworld.png";
+let wrldImg = "graphics/imgworld.png";
 let wrldDate = "November 22 - December 21";
 let wrldText = "As a Saggitatrius, you are a fire sign, openminded and idealistic. You have a great sense of humor and a love for culture, spirituality, and religion. World music is the best fit for you because it embodies different cultures and allows you to embrace and celebrate other cultures. You hate limiting yourself to one kind of music. You also like this genre for the emotion and catchiness of the songs, enjoying music that makes you want to get on your feet and dance.";
-let wrldSound = "../sounds/world.mp3";
+let wrldSound = "sounds/world.mp3";
 /* rap */
-let rapTitle = "../graphics/titlerap.png";
-let rapImg = "../graphics/imgrap.png";
+let rapTitle = "graphics/titlerap.png";
+let rapImg = "graphics/imgrap.png";
 let rapDate = "October 23 - November 21";
 let rapText = "As a Scorpio, you are a water sign, passionate and emotional. You are resourceful, brave, intense, and passionate. Rap/ hip-hop is the best fit for you because it is intense music that sigs into the soul. There's a lot of passion in the lyrics as well as a strong beat. These songs read more like poems, and you like that this is a different outlet for emotions than simply talking about them.";
-let rapSound = "../sounds/rap.mp3";
+let rapSound = "sounds/rap.mp3";
 /* the classics */
-let tcTitle = "../graphics/titletc.png";
-let tcImg = "../graphics/imgtc.png";
+let tcTitle = "graphics/titletc.png";
+let tcImg = "graphics/imgtc.png";
 let tcDate = "April 20 - May 20";
 let tcText = "As a Tarus, you are an earth sign ruled by venus, the planet of beauty, music, and art. You are relaxed and find comfort in listening to songs that remind you of good times. You are most at home when listening to the classics, reminiscing on the history of music. The classics remind you of a better time, a time when musicians were really about the music.";
-let tcSound = "../sounds/theclassics.mp3";
+let tcSound = "sounds/theclassics.mp3";
 /* classical */
-let classTitle = "../graphics/titleclass.png";
-let classImg = "../graphics/imgclass.png";
+let classTitle = "graphics/titleclass.png";
+let classImg = "graphics/imgclass.png";
 let classDate = "August 23 - September 22";
 let classText = "As a Virgo, you are an earth sign, peaceful and calm. You are warm, caring, intelligent, analytical, and kind. You appreciate the sounds of nature and soothing tunes that can help calm your nerves. Classical music is the best fit for you because it is the cleanest most intellectual type of music. As one of the most intelligent signs, this music allows you to search within, tapping into your intellectual side.";
-let classSound = "../sounds/classical.mp3";
+let classSound = "sounds/classical.mp3";
 
 /* event listeners */
 altButton.addEventListener("click", function () {
