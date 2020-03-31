@@ -83,17 +83,12 @@ function mainMain () {
 
 /* MODAL */
 let modal = document.getElementById('modal');
-const btnModal = document.querySelectorAll('.toggle-modal');
+const btnModal = document.getElementById('btn-modal-close');
 
-btnModal.forEach(button => {
-  button.addEventListener(
-    'click',
-    () => {
-      modal.hidden = !modal.hidden;
+btnModal.addEventListener('click', function () {
+      modal.style.visibility = "hidden";
     },
-    false
-  );
-});
+    false);
 
 /* MODAL CONTENT ADJUSTMENT */
 /* get modal elements */
@@ -101,7 +96,7 @@ let modTitle = document.getElementById("modtitle");
 let modImg = document.getElementById ("modimg");
 let modDate = document.getElementById("moddate");
 let modText = document.getElementById("modtext");
-let modSound = document.getElementById("soundplayer")
+let modSound = document.getElementById("soundplayer");
 
 /* define fill-in elements */
 /* alternative */
@@ -217,7 +212,9 @@ clsclButton.addEventListener("click", function () {
 
 /* modal switch function */
 function altModal (whichTitle, whichImg, whichDate, whichText, whichSound) {
-    modal.hidden = !modal.hidden;
+  //visibility
+  modal.style.visibility = "visible";
+  //content
     modTitle.src= whichTitle;
     modImg.src= whichImg;
     modDate.innerHTML= whichDate;
@@ -239,11 +236,16 @@ function computeZod() {
     //0123456789
     let monStr = userBday.substr(5,2);
     let dayStr = userBday.substr(8,2);
+    let yearStr = userBday.substr(0,4);
     //convert string to number
     let monNum = parseInt(monStr);
     let dayNum = parseInt(dayStr);
+    let yearNum = parseInt(yearStr);
     dateToZodiac(monNum, dayNum);
+    invalidYear(yearNum);
+    // for error
 }
+
 
 /* date sort function */
 function dateToZodiac(whichMonth, whichDayOfMonth) {
@@ -291,7 +293,7 @@ btnHelp.forEach(button => {
         if (helpBtn.className !== "helpclicked") {
             helpBtn.classList.add("helpclicked");
         } else {
-            helpBtn.classList.remove("helpclicked")
+            helpBtn.classList.remove("helpclicked");
         }
     },
     false
@@ -307,11 +309,30 @@ function menuHelp () {
     if (helpBtn.className !== "helpclicked") {
         helpBtn.classList.add("helpclicked");
     } else {
-        helpBtn.classList.remove("helpclicked")
+        helpBtn.classList.remove("helpclicked");
     } 
 }
 
 /* INVALID DATE FUNCTION */
+/* day/month */
 function invalidFctn () {
-    
-}; 
+  let errorMsg = document.getElementById("compute");
+  errorMsg.style.fontSize = "1.5rem";
+  errorMsg.style.backgroundColor = "red";
+  errorMsg.style.fontWeight = "900";
+  errorMsg.textContent = "Invalid Date";
+  setTimeout(function(){
+  errorMsg.style.fontSize = "1rem";
+  errorMsg.style.backgroundColor = "#EFE4D8";
+  errorMsg.style.fontWeight = "400";
+  errorMsg.textContent = "Get my Music Genre";
+  }, 3000);
+}
+
+/* year */
+
+function invalidYear () {
+  if (yearNum !== 4) {
+    invalidFctn ();
+  }
+}

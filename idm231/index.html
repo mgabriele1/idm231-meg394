@@ -11,10 +11,12 @@
   <div class= "grid-container">
     <div class="header">
         <img src="graphics/title.png" alt="musical astrology">
-        <form acton="">
-          <label for="zods">Your Birthday:</label>
+        <div>
+        <form>
+          <label>Your Birthday:</label>
           <input type ="date" id="zodDate" name="zodDate">
         </form>
+        </div>
         <button id="compute" onclick="computeZod()">Get my Music Genre</button>
         <p id="help">Help</p>
     </div>        
@@ -39,13 +41,13 @@
       <p>Music from Apple Music</p>
     </div> 
 <!--AUDIO-->
-<audio src="" id="soundplayer">
+<audio src="sounds/world.mp3" id="soundplayer">
   <p>
       browser does not play audio
   </p>
 </audio>
 <!--MODAL-->
-    <div id="modal" class="modal" hidden>
+    <div id="modal" class="modal">
       <div class="modal-body">
           <img src="http://placehold.it/250x100" alt="" class="modal-title" id="modtitle">
           <h1 class="modal-date" id="moddate">Date Placeholder</h1>
@@ -69,7 +71,6 @@
   </div>
 </div>        
 </div>      
-</div> 
 <!--SCRIPT-->
 <script src="scripttest.js"></script>     
 </body>
